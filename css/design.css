@@ -27,12 +27,18 @@ h2 {
   font-size: 2.15rem;
   margin-bottom: 0.5rem; }
 
+h3 {
+  color: #c7006e;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem; }
+
 h4 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem; }
 
 p {
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem; }
 
 a {
   font-family: 'Ariata Text W05 Medium', Georgia, serif;
@@ -106,8 +112,19 @@ i {
     .box a:hover {
       border-bottom-color: #d50281; }
 
-.video {
-  margin: 2rem 0; }
+.videoContent {
+  margin-top: 6rem; }
+  .videoContent .video {
+    margin-bottom: 10rem; }
+    .videoContent .video iframe {
+      border-radius: 0.3rem; }
+
+footer {
+  padding: 3rem;
+  margin-top: 10rem;
+  font-size: 0.75rem;
+  text-align: center;
+  color: #ff9e22; }
 
 @media only screen and (max-width: 850px) {
   #main {
