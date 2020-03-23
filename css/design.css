@@ -82,6 +82,11 @@ i {
   -o-transition: all 200ms;
   transition: all 200ms; }
 
+#hangout {
+  background: #ff9e22; }
+  #hangout a {
+    color: white; }
+
 .section {
   height: 100vh;
   display: -ms-grid;
